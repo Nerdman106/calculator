@@ -1,5 +1,3 @@
-let x = 0;
-
-x+="5"
-
-console.log(parseInt(x))
+let x = "528"
+x = x.slice(0, -1)
+console.log(x)
